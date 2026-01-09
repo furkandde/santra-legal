@@ -1,15 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Santra – Legal</title>
+  <meta name="description" content="Santra - Halı Saha Platformu yasal belgeler ve gizlilik politikası" />
+  <meta name="theme-color" content="#0D9488" />
+  <title>Santra – Yasal Belgeler</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: linear-gradient(135deg, #0D9488 0%, #0F766E 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      border-radius: 24px;
+      padding: 48px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      text-align: center;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #0D9488 0%, #14B8A6 100%);
+      border-radius: 20px;
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+    }
+    h1 {
+      color: #1F2937;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      color: #6B7280;
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .link-card {
+      display: flex;
+      align-items: center;
+      padding: 20px 24px;
+      background: #F9FAFB;
+      border-radius: 16px;
+      text-decoration: none;
+      color: #1F2937;
+      transition: all 0.2s ease;
+      border: 2px solid transparent;
+    }
+    .link-card:hover {
+      background: #F0FDFA;
+      border-color: #0D9488;
+      transform: translateY(-2px);
+    }
+    .link-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, #0D9488 0%, #14B8A6 100%);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 16px;
+      font-size: 24px;
+    }
+    .link-text {
+      text-align: left;
+    }
+    .link-title {
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+    .link-desc {
+      color: #6B7280;
+      font-size: 14px;
+    }
+    .arrow {
+      margin-left: auto;
+      color: #9CA3AF;
+      font-size: 20px;
+    }
+    .footer {
+      margin-top: 32px;
+      padding-top: 24px;
+      border-top: 1px solid #E5E7EB;
+      color: #9CA3AF;
+      font-size: 13px;
+    }
+    .footer a {
+      color: #0D9488;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-  <h1>Santra Legal Documents</h1>
-  <ul>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-    <li><a href="terms.html">Terms & Conditions</a></li>
-  </ul>
+  <div class="container">
+    <div class="logo">⚽</div>
+    <h1>Santra</h1>
+    <p class="subtitle">Halı Saha Platformu – Yasal Belgeler</p>
+    
+    <div class="links">
+      <a href="privacy.html" class="link-card">
+        <div class="link-icon">🔒</div>
+        <div class="link-text">
+          <div class="link-title">Gizlilik Politikası</div>
+          <div class="link-desc">Verilerinizi nasıl koruyoruz</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+      
+      <a href="terms.html" class="link-card">
+        <div class="link-icon">📋</div>
+        <div class="link-text">
+          <div class="link-title">Kullanım Koşulları</div>
+          <div class="link-desc">Hizmet şartları ve kurallar</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+    
+    <div class="footer">
+      <p>© 2026 Santra. Tüm hakları saklıdır.</p>
+      <p style="margin-top: 8px;">İletişim: <a href="mailto:support@santra.app">support@santra.app</a></p>
+    </div>
+  </div>
 </body>
 </html>
